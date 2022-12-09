@@ -1,0 +1,61 @@
+.MainPage{
+    width: 100vw;
+    height: 300vh;
+    background-color: rgb(192, 189, 189);
+    justify-content: center;
+    margin-top: 70px;
+    .Head-main{
+        width: 100vw;
+        height: 70vh;
+        background: url();
+        background:linear-gradient(180deg,blue,white);
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        position:sticky;
+        top: 70px;
+        z-index: 0;
+        align-items: center;
+        h3{
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+    }
+    .Head-main2{
+        width: 100vw;
+        height: 70vh;
+        background: url();
+        background:linear-gradient(180deg,rgb(90, 36, 2),rgb(228, 210, 145));
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        position:sticky;
+        top: 70px;
+        z-index: 0;
+        align-items: center;
+        h3{
+            font-size: 30px;
+            letter-spacing: 3px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+    }
+    .div2{
+        width: 100vw;
+        height: 700px;
+        background:green;
+        z-index: 3;
+        display: flex;
+        position: relative;
+    }
+    .div3{
+        width: 100vw;
+        height: 700px;
+        background-color: rgb(221, 14, 14);
+        z-index: 3;
+        display: flex;
+        position: relative;
+    }
+}

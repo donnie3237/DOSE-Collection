@@ -1,0 +1,28 @@
+.Product-contents{
+    width: 100vw;
+    height: 200vh;
+    background-color: white;
+    scroll-behavior: smooth;
+    .prodchild{
+        width: 100vw;
+        height: 100vh;
+    }
+    .Prod-Title{
+        width: 100vw;
+        height: 110vh;
+        background-color: wheat;
+        margin-top: 70px;
+    }
+    .dose-lib{
+        background-color: aqua;
+    }
+    .dose-ml{
+        background-color: blueviolet;
+    }
+    .dose-crud{
+        background-color: teal;
+    }
+    .dose-iot{
+        background-color: brown;
+    }
+}
