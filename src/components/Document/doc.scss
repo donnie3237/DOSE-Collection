@@ -50,15 +50,16 @@
         flex-direction: column;
         .doc{
             width: 100vw;
-            background-color: black;
-            height: 200px;
+            height: 250px;
             border-bottom: 1px solid white;
             display: flex;
             flex-direction: column;
+            background-color: black;
             align-items: center;
             h1{
                 color: white;
                 font-size: 1.5em;
+                text-shadow: 0 0 10px rgb(21, 0, 255);
             }
             .download{
                 width: 220px;
@@ -93,6 +94,47 @@
                     }
                 }
             }
+            .therminal{
+                width: 60vw;
+                height: 40px;
+                display: flex;
+                margin-top: 20px;
+                background-color: white;
+                align-items: center;
+                padding: 0 5vw;
+                position: relative;
+                button{
+                    right: 5vw;
+                    height: 28px;
+                    position: absolute;
+                    color: white;
+                    background-color: black;
+                    &:hover{
+                        background-color: rgb(16, 16, 16);
+                        transition: all 0.3s;
+                    }
+                }
+            }
+        }
+        .doc1{
+            background:url(./img/electronjs.png) no-repeat ;
+            background-position: center;
+            background-size: cover;
+        }
+        .doc2{
+            background: url(./img/reactjs-benefits.jpg);
+            background-position:center;
+            background-size: cover;
+        }
+        .doc3{
+            background: url(./img/server.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;  
+        }
+        .doc4{
+            background: url(./img/ml.jpg) no-repeat;
+            background-position: center;
+            background-size: cover;
         }
     }
 }
