@@ -7,6 +7,7 @@ function About({}: Props) {
   return (
     <div className='About'>
         <div className="bgh"></div>
+        <div className="moreAbout"></div>
     </div>
   )
 }

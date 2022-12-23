@@ -29,6 +29,7 @@ const ProDucts = (props: Props) => {
               </div>
               <div className="download">
                 <h2>DosE-LIB</h2>
+                <p>My library app Electric Energy and coding App</p>
                 <div className="phone">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                     <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
@@ -54,6 +55,7 @@ const ProDucts = (props: Props) => {
             <div className="dose-ml prodchild">
               <div className="download">
                 <h2>DosE-ML</h2>
+                <p>Machine Learning App with TensorfloeJS </p>
                 <div className="phone">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                     <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
@@ -70,7 +72,7 @@ const ProDucts = (props: Props) => {
                 </svg>
                 <div className="load">
                     <p>Windows,MAcOS,Linux</p>
-                    <a href={require('./MyProd/DosE-LIB Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/DosE-ML Setup 1.0.0.exe')}>Download!!</a>
                   </div>
                 </div>
               </div>
@@ -85,6 +87,7 @@ const ProDucts = (props: Props) => {
               </div>
               <div className="download">
                 <h2>DosE-CRUD</h2>
+                <p>FulllStck deverloper App using ExpressJS ReactJS MongoDB</p>
                 <div className="phone">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                     <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
@@ -92,7 +95,7 @@ const ProDucts = (props: Props) => {
                   </svg>
                   <div className="load">
                     <p>Mobile Phone</p>
-                    <a href={require('./MyProd/DosE-LIB Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/DosE-CRUD Setup 1.0.0.exe')}>Download!!</a>
                   </div> 
                 </div>
                 <div className="desk">
@@ -110,6 +113,7 @@ const ProDucts = (props: Props) => {
             <div className="dose-iot prodchild" id='dose-iot'>
               <div className="download">
                 <h2>DosE-IOT</h2>
+                <p>Internet of things App Node-red MQTT base</p>
                 <div className="phone">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
                     <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
@@ -126,7 +130,7 @@ const ProDucts = (props: Props) => {
                 </svg>
                 <div className="load">
                     <p>Windows,MAcOS,Linux</p>
-                    <a href={require('./MyProd/DosE-LIB Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/DosE-IOT Setup 1.0.0.exe')}>Download!!</a>
                   </div>
                 </div>
               </div>
