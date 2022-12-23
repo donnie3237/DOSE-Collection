@@ -59,7 +59,6 @@
             h1{
                 color: white;
                 font-size: 1.5em;
-                text-shadow: 0 0 10px rgb(21, 0, 255);
             }
             .download{
                 width: 220px;
@@ -117,24 +116,16 @@
             }
         }
         .doc1{
-            background:url(./img/electronjs.png) no-repeat ;
-            background-position: center;
-            background-size: cover;
+            background-color: rgb(34, 34, 34);
         }
         .doc2{
-            background: url(./img/reactjs-benefits.jpg);
-            background-position:center;
-            background-size: cover;
+            background-color: rgb(13, 13, 64);
         }
         .doc3{
-            background: url(./img/server.jpg) no-repeat;
-            background-position: center;
-            background-size: cover;  
+         background-color: rgb(45, 44, 44);
         }
         .doc4{
-            background: url(./img/ml.jpg) no-repeat;
-            background-position: center;
-            background-size: cover;
+            background-color: rgb(3, 3, 56);
         }
     }
 }

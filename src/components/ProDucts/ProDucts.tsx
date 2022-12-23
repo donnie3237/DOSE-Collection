@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import HProducts from './HProducts/HProducts.tsx'
 import './prod.scss'
+import './prod-w.scss'
 const Prod1 = require('./MyProd/DosE-LIB Setup 1.0.0.exe')
 
 type Props = {}
@@ -14,10 +15,11 @@ const ProDucts = (props: Props) => {
             <div className="Prod-Title">
                 <h1>DosE-Collection And MoRE!!</h1>
                 <div className="AllCard">
-                  <div className="card1 card"><img src={require('./img/lib.png')} alt="" /><div className="text">-- DosE-LIB --</div></div>
-                  <div className="card2 card"><img src={require('./img/crud.png')} alt="" /><div className="text">-- DosE-CRUD --</div></div>
-                  <div className="card3 card"><img src={require('./img/ml.png')} alt="" /><div className="text">-- DosE-ML --</div></div>
-                  <div className="card4 card"><img src={require('./img/iot.png')} alt="" /><div className="text">-- DosE-IOT --</div></div>
+                  <div className="card"><img src={require('./img/lib.png')} alt="" /><div className="text">-- DosE-LIB --</div></div>
+                  <div className="card"><img src={require('./img/crud.png')} alt="" /><div className="text">-- DosE-CRUD --</div></div>
+                  <div className="card"><img src={require('./img/ml.png')} alt="" /><div className="text">-- DosE-ML --</div></div>
+                  <div className="card"><img src={require('./img/iot.png')} alt="" /><div className="text">-- DosE-IOT --</div></div>
+                  <div className="small"></div>
                 </div>
                 <div className="mark" id='dose-lib'></div>
             </div>
