@@ -110,8 +110,10 @@
                     color: white;
                     background-color: black;
                     &:hover{
-                        background-color: rgb(16, 16, 16);
+                        background-color: rgb(235, 116, 12);
                         transition: all 0.3s;
+                        transform: scale(1.1);
+                        border: 2px solid white;
                     }
                 }
             }
