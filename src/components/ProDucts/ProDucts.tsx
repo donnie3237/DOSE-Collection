@@ -121,7 +121,7 @@ const ProDucts = (props: Props) => {
                   </svg>
                   <div className="load">
                     <p>Mobile Phone</p>
-                    <a href={require('./MyProd/Dose-IOT.apk')}>Download!!</a>
+                    <a href={require('./MyProd/DosE-IOT.apk')}>Download!!</a>
                   </div> 
                 </div>
                 <div className="desk">
