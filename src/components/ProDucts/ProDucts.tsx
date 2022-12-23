@@ -37,7 +37,7 @@ const ProDucts = (props: Props) => {
                   </svg>
                   <div className="load">
                     <p>Mobile Phone</p>
-                    <a href={require('./MyProd/DosE-LIB Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/Dose-LIB.apk')}>Download!!</a>
                   </div> 
                 </div>
                 <div className="desk">
@@ -63,7 +63,7 @@ const ProDucts = (props: Props) => {
                   </svg>
                   <div className="load">
                     <p>Mobile Phone</p>
-                    <a href={require('./MyProd/DosE-LIB Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/DosE-ML.apk')}>Download!!</a>
                   </div> 
                 </div>
                 <div className="desk">
@@ -95,7 +95,7 @@ const ProDucts = (props: Props) => {
                   </svg>
                   <div className="load">
                     <p>Mobile Phone</p>
-                    <a href={require('./MyProd/DosE-CRUD Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/DosE-CRUD.apk')}>Download!!</a>
                   </div> 
                 </div>
                 <div className="desk">
@@ -121,7 +121,7 @@ const ProDucts = (props: Props) => {
                   </svg>
                   <div className="load">
                     <p>Mobile Phone</p>
-                    <a href={require('./MyProd/DosE-LIB Setup 1.0.0.exe')}>Download!!</a>
+                    <a href={require('./MyProd/Dose-IOT.apk')}>Download!!</a>
                   </div> 
                 </div>
                 <div className="desk">
