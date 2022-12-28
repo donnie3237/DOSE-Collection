@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.scss'
 
-type Props = {}
+type Props = { div : any}
 
 function About({}: Props) {
   return (
