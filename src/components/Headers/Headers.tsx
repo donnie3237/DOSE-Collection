@@ -1,15 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Headers.scss'
-const LogoImg = require('./img/profile.jpg')
 
-type Props = {}
+type Props = {
+  className : string
+}
 
-function Headers({}: Props) {
+function Headers({className}: Props) {
   return (
     <div className='nav'>
         <div className="logo">
-            <a href="#">DosE</a>
+            <a href="#ahh">DosE</a>
         </div>
         <div className="slash"></div>
         <NavLink to='/products' className="home">Products</NavLink>

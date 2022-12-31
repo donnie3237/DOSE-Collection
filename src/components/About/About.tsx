@@ -3,7 +3,7 @@ import './About.scss'
 
 type Props = { div : any}
 
-function About({}: Props) {
+function About({div}: Props) {
   return (
     <div className='About'>
         <div className="bgh"></div>

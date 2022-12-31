@@ -9,13 +9,13 @@
     .tools{
         width: 100vw;
         height: 40px;
-        display: flex;
-        justify-content: space-around;
+        background-color: rgb(7, 7, 7);
         align-items: center;
+        display: flex;
         position: fixed;
         top: 70px;
-        background-color: black;
-        z-index: 2;
+        z-index: 3;
+        justify-content: space-evenly;
         div{
             width: 15%;
             margin:0 2px;

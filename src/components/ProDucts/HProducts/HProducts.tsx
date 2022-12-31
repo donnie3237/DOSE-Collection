@@ -2,9 +2,7 @@ import React from 'react'
 import './hpd.scss'
 import { HashLink } from 'react-router-hash-link'
 
-type Props = {}
-
-function HProducts({}: Props) {
+function HProducts() {
   return (
     <div className='Products-Head'>
         <HashLink smooth to='#dose-lib'>DosE-LIB</HashLink>
